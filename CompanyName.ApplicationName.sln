@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 16
+# Visual Studio Version 16
 VisualStudioVersion = 16.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ApplicationName", "CompanyName.ApplicationName\CompanyName.ApplicationName.csproj", "{78B7CF4A-4930-4210-A88D-7799A33365DA}"
@@ -28,6 +28,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ApplicationName.Resources", "CompanyName.ApplicationName.Resources\CompanyName.ApplicationName.Resources.csproj", "{B10F5D1E-2028-4462-823A-4E40E75016AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyName.ApplicationName.CustomControls", "CompanyName.ApplicationName.CustomControls\CompanyName.ApplicationName.CustomControls.csproj", "{DEB5A471-4837-42DA-B639-8F86BFECD698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFB25169-7740-43C6-AD63-9D0920E28991}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -415,5 +420,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {621285DA-41E5-441C-B2ED-3FDC7753E5B8}
 	EndGlobalSection
 EndGlobal
